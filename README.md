@@ -27,19 +27,22 @@ The metric considered is the accuracy of the predicted residual stock return sig
 We did this challenge with 2 datasets provided as csv file, split between inputs and outputs.
 
 Input datasets comprise 47 columns: the first ID column contains unique row identifiers while the other 46 descriptive features correspond to:
-* DATE: an index of the date (the dates are randomized and anonymized so there is no continuity or link between any dates),
-* STOCK: an index of the stock,
-* INDUSTRY: an index of the stock industry domain (e.g., aeronautic, IT, oil company),
-* INDUSTRY_GROUP: an index of the group industry,
-* SUB_INDUSTRY: a lower level index of the industry,
-* SECTOR: an index of the work sector,
-* RET_1 to RET_20: the historical residual returns among the last 20 days (i.e., RET_1 is the return of the previous day and so on),
-* VOLUME_1 to VOLUME_20: the historical relative volume traded among the last 20 days (i.e., VOLUME_1 is the relative volume of the previous day and so on)
+| Input | Description |
+| ------ | ------ |
+| `DATE` | an index of the date (the dates are randomized and anonymized so there is no continuity or link between any dates) |
+| `STOCK` | an index of the stock |
+| `INDUSTRY` | an index of the stock industry domain (e.g., aeronautic, IT, oil company) |
+| `INDUSTRY_GROUP` | an index of the group industry |
+| `SUB_INDUSTRY` | a lower level index of the industry |
+| `SECTOR` | an index of the work sector |
+| `RET_1 to RET_20` | the historical residual returns among the last 20 days (i.e., RET_1 is the return of the previous day and so on) |
+| `VOLUME_1 to VOLUME_20` | the historical relative volume traded among the last 20 days (i.e., VOLUME_1 is the relative volume of the previous day and so on) |
 
 Output datasets are only composed of 2 columns:
-* ID: the unique row identifier (corresponding to the input identifiers)
-and the binary target:
-* RET: the sign of the residual stock return at time tt
+| Output | Description |
+| ------ | ------ |
+| `ID` | the unique row identifier (corresponding to the input identifiers) |
+| `RET` | the sign of the residual stock return at time t (binary) |
 
 100 000 observations (i.e. lines) are available for both datasets.
 
