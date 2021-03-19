@@ -13,11 +13,11 @@ Quantitative investment strategies require the analysis of historical data to pr
 ### Challenge goals
 The proposed challenge aims at predicting the return of a stock in the US market using historical data over a recent period of 20 days. The one-day return of a stock j on day t with price P_j^t (adjusted from dividends and stock splits) is given by:
 
-<img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG" alt="formula1" width="200"/>
+<div style="text-align:center"><img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG" alt="formula1" width="200"/></div>
 
 In this challenge, we consider the residual stock return, which corresponds to the return of a stock without the market impact. Historical data are composed of residual stock returns and relative volumes, sampled each day during the 20 last business days (approximately one month). The relative volume \mathcal{V}_j^t at time t of a stock j among the n stocks is defined by:
 
-<img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula2.PNG" alt="formula2" width="250"/>
+<div style="text-align:center"><img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula2.PNG" alt="formula2" width="250"/></div>
 
 where V_j^t is the volume at time t of a stock j. We also give additional information about each stock such as its industry and sector.
 
