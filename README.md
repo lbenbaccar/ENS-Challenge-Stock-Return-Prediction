@@ -5,7 +5,6 @@ Before explaining the project, here are the description of each file.
 | Files | Description |
 | ------ | ------ |
 | `StockPrediction.ipynb` | All data analysis / processing and machine learning algorithms |
-| `StockPrediction.html` | HTML file of the jupyter notebook |
 | `x_train2.csv` | Input file |
 | `y_train2.csv` | Output file |
 
