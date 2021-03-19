@@ -19,6 +19,9 @@ In this challenge, we consider the residual stock return, which corresponds to t
 
 <img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula2.PNG" alt="formula2" width="250"/>
 
+where V_j^t is the volume at time t of a stock j. We also give additional information about each stock such as its industry and sector.
+
+The metric considered is the accuracy of the predicted residual stock return sign.
 
 ### Data description
 We did this challenge with 2 datasets provided as csv file, split between inputs and outputs.
