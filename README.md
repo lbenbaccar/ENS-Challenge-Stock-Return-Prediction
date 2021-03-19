@@ -12,8 +12,8 @@ Quantitative investment strategies require the analysis of historical data to pr
 
 ### Challenge goals
 The proposed challenge aims at predicting the return of a stock in the US market using historical data over a recent period of 20 days. The one-day return of a stock j on day t with price P_j^t (adjusted from dividends and stock splits) is given by:
-<img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG" alt="drawing" width="200"/>
-![alt text](https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG?raw=true)
+
+<img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG" alt="formula1" width="200"/>
 
 ### Data description
 We did this challenge with 2 datasets provided as csv file, split between inputs and outputs.
