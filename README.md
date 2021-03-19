@@ -15,6 +15,11 @@ The proposed challenge aims at predicting the return of a stock in the US market
 
 <img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula1.PNG" alt="formula1" width="200"/>
 
+In this challenge, we consider the residual stock return, which corresponds to the return of a stock without the market impact. Historical data are composed of residual stock returns and relative volumes, sampled each day during the 20 last business days (approximately one month). The relative volume \mathcal{V}_j^t at time t of a stock j among the n stocks is defined by:
+
+<img src="https://github.com/lbenbaccar/ENS-Challenge-Stock-Return-Prediction/blob/main/formula2.PNG" alt="formula2" width="200"/>
+
+
 ### Data description
 We did this challenge with 2 datasets provided as csv file, split between inputs and outputs.
 
